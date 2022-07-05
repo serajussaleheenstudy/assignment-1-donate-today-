@@ -1,68 +1,63 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    padding: 0%;
     margin: 0;
+    box-sizing: border-box;
+}
+
+.banner-area {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(images/floods1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content-area {
+    height: 100%;
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
-    background-position: center;
-    background-color: aqua;
-    background-image: url(images/donation...jpg);
-    background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, .5) rgba(0, 0, 0, .5));
-    color: white;
-    padding: 150px 300px;
-    margin-bottom: 20px;
-    font-size: 26px;
     text-align: center;
-}
-
-#p-color {
-    font-size: 12px;
-    font-family: Arial;
-    padding-bottom: 20px;
     color: white;
+    font-size: 20px;
 }
 
-p {
-    font-size: 12px;
-    font-family: Arial;
+.content p {
+    font-size: 15px;
     padding-bottom: 20px;
-    color: gray;
+    color: rgb(189, 180, 180);
+    padding-bottom: 40px;
+    font-style: normal;
 }
 
 .link-button {
     text-decoration: none;
     background-color: rgb(216, 63, 93);
-    background-image: linear-gradient(#29050c #5e1818);
-    padding: 15px 30px;
+    margin-top: 100px;
+    padding: 15px;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 15px;
     color: #ffffff;
     font-weight: 550;
-    box-shadow: #97243b;
 }
 
-.donate-content {
-
-    color: black;
-    padding: 40px 300px;
-    margin-bottom: 20px;
+.donate-area {
     font-size: 20px;
     text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
 }
 
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #0B0D17;
-    color: white;
-
+.paid-area p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: rgb(182, 173, 173);
+    padding-bottom: 40px;
+    font-style: normal;
 }
