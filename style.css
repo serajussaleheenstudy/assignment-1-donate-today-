@@ -3,21 +3,19 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0%;
     margin: 0;
-    box-sizing: border-box;
 }
 
 .banner-area {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(images/floods1.jpg);
-    background-position: center;
+    width: 105%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/floods1.jpg);
     background-size: cover;
 }
 
 .content-area {
-    height: 100%;
+    height: 85%;
     display: flex;
-    padding: 30px 50px;
+    padding: 50px 300px;
     justify-content: center;
     align-items: center;
 }
@@ -25,15 +23,13 @@ body {
 .content {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .content p {
-    font-size: 15px;
-    padding-bottom: 20px;
+    font-size: 18px;
     color: rgb(189, 180, 180);
     padding-bottom: 40px;
-    font-style: normal;
 }
 
 .link-button {
@@ -44,22 +40,24 @@ body {
     font-size: 15px;
     color: #ffffff;
     font-weight: 550;
+    padding-top: 20px;
 }
 
 .donate-area {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    padding: 40px;
-    box-sizing: border-box;
-
+    padding: 40px 400px;
+    padding-top: 70px;
 }
 
 .paid-area p {
-    font-size: 15px;
-    color: rgb(173, 164, 164);
-    padding: 30px 20px;
+    font-size: 16px;
+    color: rgb(184, 172, 172);
     font-style: normal;
-    border-bottom: rgb(167, 162, 162);
+    border-bottom: rgb(185, 179, 179);
+    width: 500;
+    padding: 10px 70px;
+    padding-bottom: 20px;
 
 }
 
@@ -99,21 +97,32 @@ footer h2 {
 }
 
 .update-area {
-    margin: 100px;
-    padding-top: 30px;
     text-align: center;
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    left: 375px;
+    top: 1262px;
+
 }
 
 .button-area {
     background-color: #ebcece;
     background-position: center;
-    background-size: 30px 50px;
     padding: 20px 40px;
     text-align: center;
+    position: absolute;
+    width: 800px;
+    height: 120px;
+    left: 50px;
+    right: 100px;
+    top: 442px;
+
 }
 
-footer p {
+.resize {
     font-family: arial;
     font-size: 12px;
     color: gray;
+    top: 2400px;
 }
