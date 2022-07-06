@@ -7,7 +7,7 @@ body {
 }
 
 .banner-area {
-    width: 105%;
+    width: 100%;
     height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/floods1.jpg);
     background-size: cover;
@@ -98,11 +98,6 @@ body {
     text-align: center;
 }
 
-.food p {
-    font-size: 13px;
-    text-align: justify;
-}
-
 .shelter {
     background-color: rgb(248, 221, 217);
     width: 200px;
@@ -115,11 +110,6 @@ body {
     text-align: center;
 }
 
-.shelter p {
-    font-size: 13px;
-    text-align: justify;
-}
-
 .education {
     width: 200px;
     background-color: rgb(227, 236, 191);
@@ -130,11 +120,6 @@ body {
 .education h2 {
     font-size: 22px;
     text-align: center;
-}
-
-.education p {
-    font-size: 13px;
-    text-align: justify;
 }
 
 .query-area {
