@@ -50,14 +50,36 @@ body {
 .donate-area {
     font-size: 20px;
     text-align: center;
-    padding-top: 40px;
+    padding: 40px;
+    padding-bottom: 150px;
     box-sizing: border-box;
 }
 
 .paid-area p {
     font-size: 15px;
     padding-bottom: 20px;
-    color: rgb(182, 173, 173);
+    color: rgb(105, 99, 99);
     padding-bottom: 40px;
     font-style: normal;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    background-position: fixed;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+    font-family: Lobstar;
+    font-weight: 500px;
+    color: #7c1b1b;
+}
+
+footer p {
+    font-family: arial;
+    font-size: 12px;
+    color: gray;
 }
