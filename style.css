@@ -63,24 +63,30 @@ body {
 
 .donate-plan {
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     padding: 40px 400px;
 }
 
 .donate-plan p {
     font-size: 15px;
-    color: rgb(184, 179, 179);
+    color: rgb(175, 171, 171);
 }
 
 .planning-area {
-    display: flex;
+    display: inline-flex;
     padding: 30px;
+    width: 100px;
+    border: 15px;
+    padding: 15px;
+    margin: 20px;
 }
 
 .food {
     background-color: rgb(191, 255, 234);
+    width: fit-content;
     padding-left: 30px;
     padding-right: 10px;
+    padding: 10px;
 }
 
 .shelter {
@@ -120,26 +126,24 @@ body {
 
 .update-area {
     width: 50%;
-    height: 20vh;
+    height: 40vh;
     background-position: center;
     background-color: rgb(255, 224, 224);
-    margin-top: 5%;
+    margin-bottom: 5%;
     padding: 30px;
     margin-left: 25%;
-}
-
-.heading-area {
-    padding-bottom: 70px;
-    font-size: 26px;
-    font-weight: 550;
-    color: black;
     text-align: center;
 }
 
-.heading-area p {
+.update-area h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.update-area p {
     font-size: 15px;
-    color: rgb(175, 175, 175);
-    text-align: center;
+    color: rgb(153, 153, 153);
+    margin-bottom: 10%;
 }
 
 .footer {
