@@ -27,7 +27,7 @@ body {
 }
 
 .content p {
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(189, 180, 180);
     padding-bottom: 40px;
 }
@@ -61,68 +61,106 @@ body {
 
 }
 
-footer {
+.donate-plan {
+    text-align: center;
+    font-size: 26px;
+    padding: 40px 400px;
+}
+
+.donate-plan p {
+    font-size: 15px;
+    color: rgb(184, 179, 179);
+}
+
+.planning-area {
+    display: flex;
+    padding: 30px;
+}
+
+.food {
+    background-color: rgb(191, 255, 234);
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.shelter {
+    background-color: rgb(240, 196, 190);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.education {
+    background-color: rgb(243, 255, 189);
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.query-area {
+    padding: 40px;
+    margin-left: 10%;
+    margin-right: 15%;
+    background-image: url(images/donation13xn.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.sizing-para {
+    width: 40%;
+    height: 60vh;
+    font-size: 26px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+
+.query-system p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.update-area {
+    width: 50%;
+    height: 20vh;
+    background-position: center;
+    background-color: rgb(255, 224, 224);
+    margin-top: 5%;
+    padding: 30px;
+    margin-left: 25%;
+}
+
+.heading-area {
+    padding-bottom: 70px;
+    font-size: 26px;
+    font-weight: 550;
+    color: black;
+    text-align: center;
+}
+
+.heading-area p {
+    font-size: 15px;
+    color: rgb(175, 175, 175);
+    text-align: center;
+}
+
+.footer {
     width: 100%;
-    padding: 20px;
-    background-color: black;
+    height: 25vh;
+    background-color: rgb(14, 14, 14);
     background-position: fixed;
     text-align: center;
 }
 
 footer h2 {
-    font-size: 20px;
-    font-family: Lobstar;
-    font-weight: 500px;
-    color: #7c1b1b;
-}
-
-.donate-plan {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ac3030;
     text-align: center;
-    padding: 30px;
-    margin: 20px;
+    padding-top: 35px;
 }
 
-.planning-area {
-    display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-align: justify;
-    padding: 15px 30px;
-    box-shadow: 10px 10px 10px 10px pink;
-    border-radius: 3px;
-}
-
-#food {
-    padding: 15px;
-}
-
-.update-area {
-    text-align: center;
-    position: absolute;
-    width: 700px;
-    height: 50px;
-    left: 375px;
-    top: 1262px;
-
-}
-
-.button-area {
-    background-color: #ebcece;
-    background-position: center;
-    padding: 20px 40px;
-    text-align: center;
-    position: absolute;
-    width: 800px;
-    height: 120px;
-    left: 50px;
-    right: 100px;
-    top: 442px;
-
-}
-
-.resize {
-    font-family: arial;
-    font-size: 12px;
-    color: gray;
-    top: 2400px;
+.footer p {
+    color: rgb(168, 158, 158);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
 }
